@@ -14,9 +14,7 @@ Data for this study is from GEMS (Snitz et al.) and from an analysis on air poll
 The following SAS programs are included in this repo: 
 ## 01_prep_data.sas
 Code to prepare dataset for main and supplementary analyses. This program combines neuropsych testing administered to gems particiants to cohort data	and assigns study times and air pollution exposure. Tests from the full neuropsych exam is grouped into the following cog domains: (1) memory: cvlt_frl and ro_dr; (2) construction: ro_copy and blocks; (3) attention: dspan_f and ta_time; (4) language: bnt_spon and wg_anim; (5) executive function: tb_time and strink
-## 02_prep_sens.sas
-Code to prepare dataset for supplementary analyses 
-## 03_analysis.sas
-Code for analyses
+## 02_analysis.sas
+Code for analyses. This program creates inverse probability weights and includes code for  tables and figures in manuscript. 
 
 
